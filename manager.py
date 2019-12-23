@@ -7,7 +7,7 @@ from tensorflow.keras.layers import Conv2D, MaxPooling2D
 from tensorflow.keras.models import Model
 
 from image_add import Sequence
-from image_creating import FolderImages
+from generator import FolderImages
 import cv2
 import matplotlib.pyplot as plt
 import numpy as np
